@@ -37,9 +37,9 @@ endif
 LOCAL_C_INCLUDES := \
         $(LOCAL_PATH)/../stack/common \
         frameworks/native/include/media/openmax \
-        hardware/qcom/display/libgralloc \
-        hardware/qcom/display/libqdutils \
-        hardware/qcom/media/libstagefrighthw \
+        hardware/qcom/display-caf/$(TARGET_BOARD_PLATFORM)/libgralloc \
+        hardware/qcom/display-caf/$(TARGET_BOARD_PLATFORM)/libqdutils \
+        hardware/qcom/media-caf/$(TARGET_BOARD_PLATFORM)/libstagefrighthw \
         system/media/camera/include \
         $(LOCAL_PATH)/../../mm-image-codec/qexif \
         $(LOCAL_PATH)/../../mm-image-codec/qomx_core \
